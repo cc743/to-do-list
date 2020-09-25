@@ -35,4 +35,14 @@ function newItem(){
   }
   //4. Re-ordering the List
   $('#list').sortable();
+
 }
+
+//5. Attempting to have the enter key function the same as pressing the "add" button a.k.a the "submit" button on the form
+//Note - didn't work
+// $('.addbutton').keyup(function(event) {
+//   if (event.keyCode === 13) {
+//     event.preventDefault();
+//     $('.addbutton').click();
+//   }
+// })
